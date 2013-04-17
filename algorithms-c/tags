@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+E	search/binary_enum.c	4;"	d	file:
+E2	search/binary_enum.c	5;"	d	file:
+HLEN	search/dfs.c	3;"	d	file:
+LEN	sort/merge_sort.c	5;"	d	file:
+LEN	sort/partition.c	5;"	d	file:
+LEN	sort/quick_sort.c	5;"	d	file:
+Tst	search/TernarySearchTree.c	/^typedef struct Tst {$/;"	s	file:
+TstNode	search/TernarySearchTree.c	/^typedef struct TstNode {$/;"	s	file:
+WLEN	search/dfs.c	2;"	d	file:
+a	search/binary_search.c	/^int a[] = { 1, 3, 4, 7, 8, 12, 15, 16, 17, 20, 25, 27, 29, 30 };$/;"	v
+bak	sort/merge_sort.c	/^int bak[LEN];$/;"	v
+binary_enum	search/binary_enum.c	/^double binary_enum(double y)$/;"	f
+binary_search	search/binary_search.c	/^int binary_search(int v, int len)$/;"	f
+dfs	search/dfs.c	/^int dfs(int x, int y)$/;"	f
+geneMedian	sort/partition.c	/^int geneMedian(int start, int end)$/;"	f
+geneMedian	sort/quick_sort.c	/^int geneMedian(int start, int end)$/;"	f
+isWord	search/TernarySearchTree.c	/^    char isWord;$/;"	m	struct:TstNode	file:
+lef	search/TernarySearchTree.c	/^    struct TstNode *lef;$/;"	m	struct:TstNode	typeref:struct:TstNode::TstNode	file:
+main	a.c	/^int main()$/;"	f
+main	a.s	/^main:$/;"	l
+main	search/TernarySearchTree.c	/^int main(int argc, char **args)$/;"	f
+main	search/binary_enum.c	/^int main(void)$/;"	f
+main	search/binary_search.c	/^int main(void)$/;"	f
+main	search/dfs.c	/^int main(void)$/;"	f
+main	search/test.c	/^int main(void){$/;"	f
+main	sort/merge_sort.c	/^int main(void)$/;"	f
+main	sort/partition.c	/^int main(void)$/;"	f
+main	sort/quick_sort.c	/^int main(void)$/;"	f
+maze	search/dfs.c	/^int maze[WLEN][HLEN] = {$/;"	v
+merge	sort/merge_sort.c	/^void merge(int start, int mid, int end)$/;"	f
+merge_sort	sort/merge_sort.c	/^void merge_sort(int start, int end)$/;"	f
+mid	search/TernarySearchTree.c	/^    struct TstNode *mid;$/;"	m	struct:TstNode	typeref:struct:TstNode::TstNode	file:
+myrand	sort/merge_sort.c	/^void myrand(int len)$/;"	f
+myrand	sort/partition.c	/^void myrand(int len)$/;"	f
+myrand	sort/quick_sort.c	/^void myrand(int len)$/;"	f
+now	search/TernarySearchTree.c	/^    char now;$/;"	m	struct:TstNode	file:
+nums	sort/merge_sort.c	/^int nums[LEN];$/;"	v
+nums	sort/partition.c	/^int nums[LEN];$/;"	v
+nums	sort/quick_sort.c	/^int nums[LEN];$/;"	v
+partition	sort/partition.c	/^int partition(int start, int end)$/;"	f
+partition	sort/quick_sort.c	/^int partition(int start, int end)$/;"	f
+point	search/dfs.c	/^struct point {$/;"	s	file:
+pop	search/dfs.c	/^struct point pop()$/;"	f
+printTop	sort/merge_sort.c	/^void printTop(int n, int beforeSort)$/;"	f
+printTop	sort/partition.c	/^void printTop(int n, int beforeSort)$/;"	f
+printTop	sort/quick_sort.c	/^void printTop(int n, int beforeSort)$/;"	f
+push	search/dfs.c	/^void push(struct point p)$/;"	f
+quick_sort	sort/quick_sort.c	/^void quick_sort(int start, int end)$/;"	f
+rig	search/TernarySearchTree.c	/^    struct TstNode *rig;$/;"	m	struct:TstNode	typeref:struct:TstNode::TstNode	file:
+root	search/TernarySearchTree.c	/^	struct TstNode root;$/;"	m	struct:Tst	typeref:struct:Tst::TstNode	file:
+stack	search/dfs.c	/^} stack[512];$/;"	v	typeref:struct:point
+swap	sort/partition.c	/^void swap(int x, int y)$/;"	f
+swap	sort/quick_sort.c	/^void swap(int x,int y){$/;"	f
+top	search/dfs.c	/^int top = 0;$/;"	v
+x	search/dfs.c	/^	int x;$/;"	m	struct:point	file:
+y	search/dfs.c	/^	int y;$/;"	m	struct:point	file:
