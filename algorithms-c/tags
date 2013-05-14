@@ -6,24 +6,103 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 E	search/binary_enum.c	4;"	d	file:
 E2	search/binary_enum.c	5;"	d	file:
+ERR_INIT_TWICE	coursera/stack_queue/errors.h	8;"	d
+ERR_INVALID_PARAM	coursera/stack_queue/errors.h	2;"	d
+ERR_NO_DATA	coursera/stack_queue/errors.h	10;"	d
+ERR_OUT_OF_BOUNDS	coursera/stack_queue/errors.h	6;"	d
+ERR_OUT_OF_MEMORY	coursera/stack_queue/errors.h	4;"	d
 HLEN	search/dfs.c	3;"	d	file:
+LEN	coursera/union-find/union_find_set.h	3;"	d
 LEN	sort/merge_sort.c	5;"	d	file:
 LEN	sort/partition.c	5;"	d	file:
 LEN	sort/quick_sort.c	5;"	d	file:
 Tst	search/TernarySearchTree.c	/^typedef struct Tst {$/;"	s	file:
 TstNode	search/TernarySearchTree.c	/^typedef struct TstNode {$/;"	s	file:
 WLEN	search/dfs.c	2;"	d	file:
-a	search/binary_search.c	/^int a[] = { 1, 3, 4, 7, 8, 12, 15, 16, 17, 20, 25, 27, 29, 30 };$/;"	v
+_array	coursera/stack_queue/queue/queue.h	/^	arrays * _array;$/;"	m	struct:__anon2
+_array	coursera/stack_queue/stack/stack.h	/^	arrays *_array;$/;"	m	struct:__anon3
+_arrays_h_	coursera/stack_queue/arrays/arrays.h	2;"	d
+_create_new	coursera/stack_queue/backup/linked_stack.c	/^struct snode *_create_new(int v)$/;"	f
+_data	coursera/stack_queue/arrays/arrays.h	/^	int *_data;		\/\/数据数组$/;"	m	struct:__anon1
+_decrement_size	coursera/stack_queue/arrays/arrays.c	/^static int _decrement_size = 4;$/;"	v	file:
+_end	coursera/stack_queue/queue/queue.h	/^	int _end;\/\/队列尾元素之后(即将插入的）的下标$/;"	m	struct:__anon2
+_first	coursera/stack_queue/queue/queue.h	/^	int _first;\/\/队列头元素(即将被删除的）的下标$/;"	m	struct:__anon2
+_increment_size	coursera/stack_queue/arrays/arrays.c	/^static int _increment_size = 2;$/;"	v	file:
+_init_size	coursera/stack_queue/arrays/arrays.c	/^static int _init_size = 3;$/;"	v	file:
+_num	coursera/stack_queue/arrays/arrays.h	/^	int _num;		\/\/有效数据的数量$/;"	m	struct:__anon1
+_queue_h_	coursera/stack_queue/queue/queue.h	2;"	d
+_resize	coursera/stack_queue/backup/array_stack_before.c	/^int *_resize(int *data, int newsize, int copynum)$/;"	f
+_resize	coursera/stack_queue/backup/linked_stack2.c	/^int *_resize(int *data, int newsize, int copynum)$/;"	f
+_size	coursera/stack_queue/arrays/arrays.h	/^	int _size;		\/\/数组长度$/;"	m	struct:__anon1
+_stack_h_	coursera/stack_queue/stack/stack.h	2;"	d
+_top_idx	coursera/stack_queue/stack/stack.h	/^	int _top_idx;$/;"	m	struct:__anon3
+a	search/binary_search.c	/^int a[] = {1};$/;"	v
+add_item	coursera/stack_queue/arrays/arrays.c	/^void add_item(arrays * a, int idx, int v)$/;"	f
+add_to_grid	sudoku/sudoku.c	/^void add_to_grid(int i, int j, int v)$/;"	f
+add_to_horizontal	sudoku/sudoku.c	/^void add_to_horizontal(int i, int j, int v)$/;"	f
+add_to_vertical	sudoku/sudoku.c	/^void add_to_vertical(int i, int j, int v)$/;"	f
+all	sudoku/sudoku.c	/^int all[9][9][9];$/;"	v
+allnum	sudoku/sudoku.c	/^int allnum[9][9];$/;"	v
+arrays	coursera/stack_queue/arrays/arrays.h	/^} arrays;$/;"	t	typeref:struct:__anon1
 bak	sort/merge_sort.c	/^int bak[LEN];$/;"	v
 binary_enum	search/binary_enum.c	/^double binary_enum(double y)$/;"	f
 binary_search	search/binary_search.c	/^int binary_search(int v, int len)$/;"	f
+binary_search2	search/binary_search.c	/^int binary_search2(int v,int len){$/;"	f
+calculate	sudoku/sudoku.c	/^void calculate()$/;"	f
+check_index_not_outofbounds	coursera/stack_queue/arrays/arrays.c	/^static void check_index_not_outofbounds(int idx, int min, int max)$/;"	f	file:
+check_param_not_nagetive	coursera/stack_queue/arrays/arrays.c	/^static void check_param_not_nagetive(char *key, int num)$/;"	f	file:
+check_pointer_not_null	coursera/stack_queue/arrays/arrays.c	/^static void check_pointer_not_null(char *key, int *p)$/;"	f	file:
+data	coursera/stack_queue/backup/array_stack_before.c	/^int *data;$/;"	v
+de_queue	coursera/stack_queue/queue/array_queue.c	/^int de_queue(queue* q){$/;"	f
+decrement_factor	coursera/stack_queue/backup/array_stack_before.c	/^int decrement_factor = 4;$/;"	v
+del_item	coursera/stack_queue/arrays/arrays.c	/^int del_item(arrays * a, int idx)$/;"	f
 dfs	search/dfs.c	/^int dfs(int x, int y)$/;"	f
+do_resize	coursera/stack_queue/queue/array_queue.c	/^static void do_resize(queue* q,int newsize){$/;"	f	file:
+en_queue	coursera/stack_queue/queue/array_queue.c	/^void en_queue(queue* q,int v){$/;"	f
+findLast	sudoku/sudoku.c	/^int findLast(int i, int j)$/;"	f
+find_root_node	coursera/union-find/path_compression_quick_union.c	/^int find_root_node(int p){$/;"	f
+find_root_node	coursera/union-find/quick-find.c	/^int find_root_node(int p){$/;"	f
+find_root_node	coursera/union-find/weighted-quick-union.c	/^int find_root_node(int p){$/;"	f
 geneMedian	sort/partition.c	/^int geneMedian(int start, int end)$/;"	f
 geneMedian	sort/quick_sort.c	/^int geneMedian(int start, int end)$/;"	f
+get_data_num	coursera/stack_queue/arrays/arrays.c	/^int get_data_num(arrays * a)$/;"	f
+get_data_num	coursera/stack_queue/backup/array_stack_before.c	/^int get_data_num()$/;"	f
+get_data_num	coursera/stack_queue/backup/linked_stack.c	/^int get_data_num()$/;"	f
+get_data_num	coursera/stack_queue/backup/linked_stack2.c	/^int get_data_num()$/;"	f
+get_queue_datanum	coursera/stack_queue/queue/array_queue.c	/^int get_queue_datanum(queue* q){$/;"	f
+get_queue_size	coursera/stack_queue/queue/array_queue.c	/^int get_queue_size(queue* q){$/;"	f
+get_size	coursera/stack_queue/arrays/arrays.c	/^int get_size(arrays * a)$/;"	f
+get_stack_data_num	coursera/stack_queue/stack/array_stack.c	/^int get_stack_data_num(stack * s)$/;"	f
+get_stack_size	coursera/stack_queue/backup/array_stack_before.c	/^int get_stack_size()$/;"	f
+get_stack_size	coursera/stack_queue/backup/linked_stack.c	/^int get_stack_size()$/;"	f
+get_stack_size	coursera/stack_queue/backup/linked_stack2.c	/^int get_stack_size()$/;"	f
+get_stack_size	coursera/stack_queue/stack/array_stack.c	/^int get_stack_size(stack * s)$/;"	f
+head	coursera/stack_queue/backup/linked_stack.c	/^	struct snode *head;$/;"	m	struct:linked_stack	typeref:struct:linked_stack::snode	file:
+head	coursera/stack_queue/backup/linked_stack2.c	/^	struct node *head;$/;"	m	struct:linked_stack	typeref:struct:linked_stack::node	file:
+id	coursera/union-find/union_find_set.h	/^int id[LEN];$/;"	v
+increment_factor	coursera/stack_queue/backup/array_stack_before.c	/^int increment_factor = 2;$/;"	v
+init	coursera/stack_queue/arrays/arrays.c	/^void init(arrays * a)$/;"	f
+init	sudoku/sudoku.c	/^void init()$/;"	f
+init_node	coursera/union-find/path_compression_quick_union.c	/^void init_node(){$/;"	f
+init_node	coursera/union-find/quick-find.c	/^void init_node(){$/;"	f
+init_node	coursera/union-find/weighted-quick-union.c	/^void init_node(){$/;"	f
+init_queue	coursera/stack_queue/queue/array_queue.c	/^void init_queue(queue* q){$/;"	f
+init_size	coursera/stack_queue/backup/array_stack_before.c	/^int init_size = 3;$/;"	v
+init_stack	coursera/stack_queue/backup/array_stack_before.c	/^void init_stack()$/;"	f
+init_stack	coursera/stack_queue/backup/linked_stack.c	/^void init_stack()$/;"	f
+init_stack	coursera/stack_queue/backup/linked_stack2.c	/^void init_stack()$/;"	f
+init_stack	coursera/stack_queue/stack/array_stack.c	/^void init_stack(stack * s)$/;"	f
+initialized	coursera/stack_queue/backup/linked_stack2.c	/^	int initialized;$/;"	m	struct:linked_stack	file:
 isWord	search/TernarySearchTree.c	/^    char isWord;$/;"	m	struct:TstNode	file:
+last	coursera/stack_queue/backup/linked_stack2.c	/^	struct node *last;	\/\/快速定位到最后一个元素$/;"	m	struct:linked_stack	typeref:struct:linked_stack::node	file:
 lef	search/TernarySearchTree.c	/^    struct TstNode *lef;$/;"	m	struct:TstNode	typeref:struct:TstNode::TstNode	file:
-main	a.c	/^int main()$/;"	f
-main	a.s	/^main:$/;"	l
+linked_stack	coursera/stack_queue/backup/linked_stack.c	/^struct linked_stack {$/;"	s	file:
+linked_stack	coursera/stack_queue/backup/linked_stack2.c	/^typedef struct linked_stack {$/;"	s	file:
+main	coursera/stack_queue/test_array_queue.c	/^int main()$/;"	f
+main	coursera/stack_queue/test_array_stack.c	/^int main()$/;"	f
+main	coursera/union-find/path_compression_quick_union.c	/^int main(int argc, char const *argv[])$/;"	f
+main	coursera/union-find/quick-find.c	/^int main(int argc, char const *argv[])$/;"	f
+main	coursera/union-find/weighted-quick-union.c	/^int main(int argc, char const *argv[])$/;"	f
 main	search/TernarySearchTree.c	/^int main(int argc, char **args)$/;"	f
 main	search/binary_enum.c	/^int main(void)$/;"	f
 main	search/binary_search.c	/^int main(void)$/;"	f
@@ -31,32 +110,82 @@ main	search/dfs.c	/^int main(void)$/;"	f
 main	search/test.c	/^int main(void){$/;"	f
 main	sort/merge_sort.c	/^int main(void)$/;"	f
 main	sort/partition.c	/^int main(void)$/;"	f
+main	sort/partition2.c	/^int main(){$/;"	f
 main	sort/quick_sort.c	/^int main(void)$/;"	f
+main	sudoku/sudoku.c	/^int main(int argc, char const *argv[])$/;"	f
+matrix	sudoku/sudoku.c	/^int matrix[9][9];$/;"	v
 maze	search/dfs.c	/^int maze[WLEN][HLEN] = {$/;"	v
 merge	sort/merge_sort.c	/^void merge(int start, int mid, int end)$/;"	f
 merge_sort	sort/merge_sort.c	/^void merge_sort(int start, int end)$/;"	f
 mid	search/TernarySearchTree.c	/^    struct TstNode *mid;$/;"	m	struct:TstNode	typeref:struct:TstNode::TstNode	file:
+must_put_grid	sudoku/sudoku.c	/^int must_put_grid(int i, int j)$/;"	f
+must_put_horizontal	sudoku/sudoku.c	/^int must_put_horizontal(int i, int j)$/;"	f
+must_put_vertical	sudoku/sudoku.c	/^int must_put_vertical(int i, int j)$/;"	f
 myrand	sort/merge_sort.c	/^void myrand(int len)$/;"	f
 myrand	sort/partition.c	/^void myrand(int len)$/;"	f
 myrand	sort/quick_sort.c	/^void myrand(int len)$/;"	f
+need_resize_after_remove	coursera/stack_queue/arrays/arrays.c	/^int need_resize_after_remove(arrays * a)$/;"	f
+need_resize_before_add	coursera/stack_queue/arrays/arrays.c	/^int need_resize_before_add(arrays * a)$/;"	f
+next	coursera/stack_queue/backup/linked_stack.c	/^	struct snode *next;$/;"	m	struct:snode	typeref:struct:snode::snode	file:
+next	coursera/stack_queue/backup/linked_stack2.c	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	coursera/stack_queue/backup/linked_stack2.c	/^typedef struct node {$/;"	s	file:
 now	search/TernarySearchTree.c	/^    char now;$/;"	m	struct:TstNode	file:
+num	coursera/stack_queue/backup/array_stack_before.c	/^int num;$/;"	v
+num	coursera/stack_queue/backup/linked_stack2.c	/^	int num;$/;"	m	struct:linked_stack	file:
 nums	sort/merge_sort.c	/^int nums[LEN];$/;"	v
 nums	sort/partition.c	/^int nums[LEN];$/;"	v
 nums	sort/quick_sort.c	/^int nums[LEN];$/;"	v
 partition	sort/partition.c	/^int partition(int start, int end)$/;"	f
+partition	sort/partition2.c	/^void partition(int *array ,int f,int e,int m){$/;"	f
 partition	sort/quick_sort.c	/^int partition(int start, int end)$/;"	f
 point	search/dfs.c	/^struct point {$/;"	s	file:
 pop	search/dfs.c	/^struct point pop()$/;"	f
+pop_stack	coursera/stack_queue/backup/array_stack_before.c	/^int pop_stack(int *v)$/;"	f
+pop_stack	coursera/stack_queue/backup/linked_stack.c	/^int pop_stack(int *v)$/;"	f
+pop_stack	coursera/stack_queue/backup/linked_stack2.c	/^int pop_stack(int *v)$/;"	f
+pop_stack	coursera/stack_queue/stack/array_stack.c	/^int pop_stack(stack * s)$/;"	f
 printTop	sort/merge_sort.c	/^void printTop(int n, int beforeSort)$/;"	f
 printTop	sort/partition.c	/^void printTop(int n, int beforeSort)$/;"	f
 printTop	sort/quick_sort.c	/^void printTop(int n, int beforeSort)$/;"	f
+print_data	sudoku/sudoku.c	/^void print_data()$/;"	f
+print_node	coursera/union-find/path_compression_quick_union.c	/^void print_node(){$/;"	f
+print_node	coursera/union-find/quick-find.c	/^void print_node(){$/;"	f
+print_node	coursera/union-find/weighted-quick-union.c	/^void print_node(){$/;"	f
 push	search/dfs.c	/^void push(struct point p)$/;"	f
+push_stack	coursera/stack_queue/backup/array_stack_before.c	/^void push_stack(int v)$/;"	f
+push_stack	coursera/stack_queue/backup/linked_stack.c	/^void push_stack(int v)$/;"	f
+push_stack	coursera/stack_queue/backup/linked_stack2.c	/^void push_stack(int v)$/;"	f
+push_stack	coursera/stack_queue/stack/array_stack.c	/^void push_stack(stack * s, int v)$/;"	f
+put_if_can	sudoku/sudoku.c	/^int put_if_can(int i, int j)$/;"	f
+queue	coursera/stack_queue/queue/queue.h	/^}queue;$/;"	t	typeref:struct:__anon2
 quick_sort	sort/quick_sort.c	/^void quick_sort(int start, int end)$/;"	f
+read_and_union_node	coursera/union-find/path_compression_quick_union.c	/^void read_and_union_node(){$/;"	f
+read_and_union_node	coursera/union-find/quick-find.c	/^void read_and_union_node(){$/;"	f
+read_and_union_node	coursera/union-find/weighted-quick-union.c	/^void read_and_union_node(){$/;"	f
+read_data	sudoku/sudoku.c	/^void read_data()$/;"	f
+release	coursera/stack_queue/arrays/arrays.c	/^void release(arrays * a)$/;"	f
+release_queue	coursera/stack_queue/queue/array_queue.c	/^void release_queue(queue* q){$/;"	f
+release_stack	coursera/stack_queue/backup/array_stack_before.c	/^void release_stack()$/;"	f
+release_stack	coursera/stack_queue/backup/linked_stack.c	/^void release_stack()$/;"	f
+release_stack	coursera/stack_queue/stack/array_stack.c	/^void release_stack(stack * s)$/;"	f
+resize	coursera/stack_queue/arrays/arrays.c	/^void resize(arrays * a, int newsize, int cp_idx, int cp_length)$/;"	f
 rig	search/TernarySearchTree.c	/^    struct TstNode *rig;$/;"	m	struct:TstNode	typeref:struct:TstNode::TstNode	file:
 root	search/TernarySearchTree.c	/^	struct TstNode root;$/;"	m	struct:Tst	typeref:struct:Tst::TstNode	file:
+round_next	coursera/stack_queue/queue/array_queue.c	/^static int round_next(queue* q,int idx){$/;"	f	file:
+size	coursera/stack_queue/backup/array_stack_before.c	/^int size;$/;"	v
+size	coursera/union-find/weighted-quick-union.c	/^int size[LEN];$/;"	v
+snode	coursera/stack_queue/backup/linked_stack.c	/^struct snode {$/;"	s	file:
+stack	coursera/stack_queue/backup/linked_stack.c	/^} *stack;$/;"	v	typeref:struct:linked_stack
+stack	coursera/stack_queue/backup/linked_stack2.c	/^} stack;$/;"	t	typeref:struct:linked_stack	file:
+stack	coursera/stack_queue/stack/stack.h	/^} stack;$/;"	t	typeref:struct:__anon3
 stack	search/dfs.c	/^} stack[512];$/;"	v	typeref:struct:point
 swap	sort/partition.c	/^void swap(int x, int y)$/;"	f
 swap	sort/quick_sort.c	/^void swap(int x,int y){$/;"	f
 top	search/dfs.c	/^int top = 0;$/;"	v
+union_node	coursera/union-find/path_compression_quick_union.c	/^void union_node(int p,int q){$/;"	f
+union_node	coursera/union-find/quick-find.c	/^void union_node(int p,int q){$/;"	f
+union_node	coursera/union-find/weighted-quick-union.c	/^void union_node(int p,int q){$/;"	f
+value	coursera/stack_queue/backup/linked_stack.c	/^	int value;$/;"	m	struct:snode	file:
+value	coursera/stack_queue/backup/linked_stack2.c	/^	int value;$/;"	m	struct:node	file:
 x	search/dfs.c	/^	int x;$/;"	m	struct:point	file:
 y	search/dfs.c	/^	int y;$/;"	m	struct:point	file:

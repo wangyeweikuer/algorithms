@@ -9,50 +9,55 @@ ERR_INVALID_PARAM	errors.h	2;"	d
 ERR_NO_DATA	errors.h	10;"	d
 ERR_OUT_OF_BOUNDS	errors.h	6;"	d
 ERR_OUT_OF_MEMORY	errors.h	4;"	d
-_array	queue/queue.h	/^	arrays * _array;$/;"	m	struct:__anon2
-_array	stack/stack.h	/^	arrays *_array;$/;"	m	struct:__anon3
-_arrays_h_	arrays/arrays.h	2;"	d
+MAXLEN	exercises/130_1.c	6;"	d	file:
+_array	queue/queue.h	/^	array * _array;$/;"	m	struct:__anon1
+_array	stack/stack.h	/^	array *_array;$/;"	m	struct:__anon2
+_array_h_	array/array.h	2;"	d
 _create_new	backup/linked_stack.c	/^struct snode *_create_new(int v)$/;"	f
-_data	arrays/arrays.h	/^	int *_data;		\/\/数据数组$/;"	m	struct:__anon1
-_decrement_size	arrays/arrays.c	/^static int _decrement_size = 4;$/;"	v	file:
-_end	queue/queue.h	/^	int _end;\/\/队列尾元素之后(即将插入的）的下标$/;"	m	struct:__anon2
-_first	queue/queue.h	/^	int _first;\/\/队列头元素(即将被删除的）的下标$/;"	m	struct:__anon2
-_increment_size	arrays/arrays.c	/^static int _increment_size = 2;$/;"	v	file:
-_init_size	arrays/arrays.c	/^static int _init_size = 3;$/;"	v	file:
-_num	arrays/arrays.h	/^	int _num;		\/\/有效数据的数量$/;"	m	struct:__anon1
+_data	array/array.h	/^	int *_data;		\/\/数据数组$/;"	m	struct:__anon3
+_decrement_size	array/array.c	/^static int _decrement_size = 4;$/;"	v	file:
+_end	queue/queue.h	/^	int _end;\/\/队列尾元素之后(即将插入的）的下标$/;"	m	struct:__anon1
+_first	queue/queue.h	/^	int _first;\/\/队列头元素(即将被删除的）的下标$/;"	m	struct:__anon1
+_increment_size	array/array.c	/^static int _increment_size = 2;$/;"	v	file:
+_init_size	array/array.c	/^static int _init_size = 3;$/;"	v	file:
+_num	array/array.h	/^	int _num;		\/\/有效数据的数量$/;"	m	struct:__anon3
 _queue_h_	queue/queue.h	2;"	d
 _resize	backup/array_stack_before.c	/^int *_resize(int *data, int newsize, int copynum)$/;"	f
 _resize	backup/linked_stack2.c	/^int *_resize(int *data, int newsize, int copynum)$/;"	f
-_size	arrays/arrays.h	/^	int _size;		\/\/数组长度$/;"	m	struct:__anon1
+_size	array/array.h	/^	int _size;		\/\/数组长度$/;"	m	struct:__anon3
 _stack_h_	stack/stack.h	2;"	d
-_top_idx	stack/stack.h	/^	int _top_idx;$/;"	m	struct:__anon3
-add_item	arrays/arrays.c	/^void add_item(arrays * a, int idx, int v)$/;"	f
-arrays	arrays/arrays.h	/^} arrays;$/;"	t	typeref:struct:__anon1
-check_index_not_outofbounds	arrays/arrays.c	/^static void check_index_not_outofbounds(int idx, int min, int max)$/;"	f	file:
-check_param_not_nagetive	arrays/arrays.c	/^static void check_param_not_nagetive(char *key, int num)$/;"	f	file:
-check_pointer_not_null	arrays/arrays.c	/^static void check_pointer_not_null(char *key, int *p)$/;"	f	file:
+_top_idx	stack/stack.h	/^	int _top_idx;$/;"	m	struct:__anon2
+add_array_item	array/array.c	/^void add_array_item(array * a, int idx, int v)$/;"	f
+array	array/array.h	/^} array;$/;"	t	typeref:struct:__anon3
+check_data_avaliable	array/array.c	/^static void check_data_avaliable(int num){$/;"	f	file:
+check_data_avaliable	stack/array_stack.c	/^static void check_data_avaliable(int num)$/;"	f	file:
+check_index_not_outofbounds	array/array.c	/^static void check_index_not_outofbounds(int idx, int min, int max)$/;"	f	file:
+check_param_not_nagetive	array/array.c	/^static void check_param_not_nagetive(char *key, int num)$/;"	f	file:
+check_pointer_not_null	array/array.c	/^static void check_pointer_not_null(char *key, int *p)$/;"	f	file:
 data	backup/array_stack_before.c	/^int *data;$/;"	v
 de_queue	queue/array_queue.c	/^int de_queue(queue* q){$/;"	f
 decrement_factor	backup/array_stack_before.c	/^int decrement_factor = 4;$/;"	v
-del_item	arrays/arrays.c	/^int del_item(arrays * a, int idx)$/;"	f
+del_array_item	array/array.c	/^int del_array_item(array * a, int idx)$/;"	f
 do_resize	queue/array_queue.c	/^static void do_resize(queue* q,int newsize){$/;"	f	file:
 en_queue	queue/array_queue.c	/^void en_queue(queue* q,int v){$/;"	f
-get_data_num	arrays/arrays.c	/^int get_data_num(arrays * a)$/;"	f
+get_array_datanum	array/array.c	/^int get_array_datanum(array * a)$/;"	f
+get_array_item	array/array.c	/^int get_array_item(array * a, int idx)$/;"	f
+get_array_size	array/array.c	/^int get_array_size(array * a)$/;"	f
 get_data_num	backup/array_stack_before.c	/^int get_data_num()$/;"	f
 get_data_num	backup/linked_stack.c	/^int get_data_num()$/;"	f
 get_data_num	backup/linked_stack2.c	/^int get_data_num()$/;"	f
 get_queue_datanum	queue/array_queue.c	/^int get_queue_datanum(queue* q){$/;"	f
 get_queue_size	queue/array_queue.c	/^int get_queue_size(queue* q){$/;"	f
-get_size	arrays/arrays.c	/^int get_size(arrays * a)$/;"	f
-get_stack_data_num	stack/array_stack.c	/^int get_stack_data_num(stack * s)$/;"	f
+get_stack_datanum	stack/array_stack.c	/^int get_stack_datanum(stack * s)$/;"	f
 get_stack_size	backup/array_stack_before.c	/^int get_stack_size()$/;"	f
 get_stack_size	backup/linked_stack.c	/^int get_stack_size()$/;"	f
 get_stack_size	backup/linked_stack2.c	/^int get_stack_size()$/;"	f
 get_stack_size	stack/array_stack.c	/^int get_stack_size(stack * s)$/;"	f
+get_stack_top	stack/array_stack.c	/^int get_stack_top(stack * s)$/;"	f
 head	backup/linked_stack.c	/^	struct snode *head;$/;"	m	struct:linked_stack	typeref:struct:linked_stack::snode	file:
 head	backup/linked_stack2.c	/^	struct node *head;$/;"	m	struct:linked_stack	typeref:struct:linked_stack::node	file:
 increment_factor	backup/array_stack_before.c	/^int increment_factor = 2;$/;"	v
-init	arrays/arrays.c	/^void init(arrays * a)$/;"	f
+init_array	array/array.c	/^void init_array(array * a)$/;"	f
 init_queue	queue/array_queue.c	/^void init_queue(queue* q){$/;"	f
 init_size	backup/array_stack_before.c	/^int init_size = 3;$/;"	v
 init_stack	backup/array_stack_before.c	/^void init_stack()$/;"	f
@@ -63,10 +68,12 @@ initialized	backup/linked_stack2.c	/^	int initialized;$/;"	m	struct:linked_stack
 last	backup/linked_stack2.c	/^	struct node *last;	\/\/快速定位到最后一个元素$/;"	m	struct:linked_stack	typeref:struct:linked_stack::node	file:
 linked_stack	backup/linked_stack.c	/^struct linked_stack {$/;"	s	file:
 linked_stack	backup/linked_stack2.c	/^typedef struct linked_stack {$/;"	s	file:
+main	exercises/130_1.c	/^int main()$/;"	f
 main	test_array_queue.c	/^int main()$/;"	f
 main	test_array_stack.c	/^int main()$/;"	f
-need_resize_after_remove	arrays/arrays.c	/^int need_resize_after_remove(arrays * a)$/;"	f
-need_resize_before_add	arrays/arrays.c	/^int need_resize_before_add(arrays * a)$/;"	f
+need_resize_after_remove	array/array.c	/^int need_resize_after_remove(array * a)$/;"	f
+need_resize_before_add	array/array.c	/^int need_resize_before_add(array * a)$/;"	f
+new_array	array/array.c	/^array * new_array(){$/;"	f
 next	backup/linked_stack.c	/^	struct snode *next;$/;"	m	struct:snode	typeref:struct:snode::snode	file:
 next	backup/linked_stack2.c	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
 node	backup/linked_stack2.c	/^typedef struct node {$/;"	s	file:
@@ -80,18 +87,19 @@ push_stack	backup/array_stack_before.c	/^void push_stack(int v)$/;"	f
 push_stack	backup/linked_stack.c	/^void push_stack(int v)$/;"	f
 push_stack	backup/linked_stack2.c	/^void push_stack(int v)$/;"	f
 push_stack	stack/array_stack.c	/^void push_stack(stack * s, int v)$/;"	f
-queue	queue/queue.h	/^}queue;$/;"	t	typeref:struct:__anon2
-release	arrays/arrays.c	/^void release(arrays * a)$/;"	f
+queue	queue/queue.h	/^}queue;$/;"	t	typeref:struct:__anon1
+readline	exercises/130_1.c	/^int readline(int *cs)$/;"	f
+release_array	array/array.c	/^void release_array(array * a)$/;"	f
 release_queue	queue/array_queue.c	/^void release_queue(queue* q){$/;"	f
 release_stack	backup/array_stack_before.c	/^void release_stack()$/;"	f
 release_stack	backup/linked_stack.c	/^void release_stack()$/;"	f
 release_stack	stack/array_stack.c	/^void release_stack(stack * s)$/;"	f
-resize	arrays/arrays.c	/^void resize(arrays * a, int newsize, int cp_idx, int cp_length)$/;"	f
+resize_array	array/array.c	/^void resize_array(array * a, int newsize, int cp_idx, int cp_length)$/;"	f
 round_next	queue/array_queue.c	/^static int round_next(queue* q,int idx){$/;"	f	file:
 size	backup/array_stack_before.c	/^int size;$/;"	v
 snode	backup/linked_stack.c	/^struct snode {$/;"	s	file:
 stack	backup/linked_stack.c	/^} *stack;$/;"	v	typeref:struct:linked_stack
 stack	backup/linked_stack2.c	/^} stack;$/;"	t	typeref:struct:linked_stack	file:
-stack	stack/stack.h	/^} stack;$/;"	t	typeref:struct:__anon3
+stack	stack/stack.h	/^} stack;$/;"	t	typeref:struct:__anon2
 value	backup/linked_stack.c	/^	int value;$/;"	m	struct:snode	file:
 value	backup/linked_stack2.c	/^	int value;$/;"	m	struct:node	file:

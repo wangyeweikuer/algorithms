@@ -3,10 +3,10 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "../arrays/arrays.h"
+#include "../array/array.h"
 
 typedef struct{
-	arrays * _array;
+	array * _array;
 	int _first;//队列头元素(即将被删除的）的下标
 	int _end;//队列尾元素之后(即将插入的）的下标
 }queue;
