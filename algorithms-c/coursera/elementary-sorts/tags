@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+__sort_h_	sorts.h	2;"	d
+bubble_sort	sorts.c	/^void bubble_sort(void *a, int start, int end, size_t type_size,$/;"	f
+call_fn	test_sorts.c	/^void call_fn(int len,$/;"	f
+char_cmp	test_sorts.c	/^int char_cmp(void *a, void *b)$/;"	f
+cs	t.c	/^char cs[] = { 'x', 'y', 'z' };$/;"	v
+double_cmp	test_sorts.c	/^int double_cmp(void *a, void *b)$/;"	f
+heap_sort	sorts.c	/^void heap_sort(void *a, int start, int end, size_t type_size,$/;"	f
+insertion_sort	sorts.c	/^void insertion_sort(void *a, int start, int end, size_t type_size,$/;"	f
+insertion_sort	test_sorts.c	/^void insertion_sort(void *a, int start, int end, size_t type_size,$/;"	f
+int_cmp	test_sorts.c	/^int int_cmp(void *a, void *b)$/;"	f
+int_cmp_reverse	test_sorts.c	/^int int_cmp_reverse(void *a, void *b)$/;"	f
+ints	t.c	/^int ints[] = { 1, 2, 3 };$/;"	v
+less	sorts.c	/^int less(void *a, void *b)$/;"	f
+less	t.c	/^int less(void *a, void *b)$/;"	f
+less_equal	sorts.c	/^int less_equal(void *a, void *b)$/;"	f
+main	t.c	/^int main()$/;"	f
+main	test_sorts.c	/^int main()$/;"	f
+merge_sort	sorts.c	/^void merge_sort(void *a, int start, int end, size_t type_size,$/;"	f
+print_items	test_sorts.c	/^void print_items(int len, int *items)$/;"	f
+quick_sort	sorts.c	/^void quick_sort(void *a, int start, int end, size_t type_size,$/;"	f
+rand_items	test_sorts.c	/^int *rand_items(int len)$/;"	f
+selection_sort	sorts.c	/^void selection_sort(void *a, int start, int end, size_t type_size,$/;"	f
+shell_sort	sorts.c	/^void shell_sort(void *a, int start, int end, size_t type_size,$/;"	f
+swap	sorts.c	/^void swap(void *a, void *b, size_t type_size)$/;"	f
+swap	t.c	/^void swap(void *a, void *b)$/;"	f
+swap	test_sorts.c	/^void swap(void *a, void *b, size_t type_size)$/;"	f

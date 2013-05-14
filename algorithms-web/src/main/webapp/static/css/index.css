@@ -1,0 +1,63 @@
+.left {
+	width: 200px;
+	margin-right: 1px;
+	float: left;
+}
+
+.right {
+	width: 600px;
+	border: 1px solid #dfdfdf;
+	float: left;
+}
+
+.content {
+	height: 350px;
+}
+
+.color-div {
+	position: relative;
+	float: left;
+	width: 25px;
+	margin-left: 5%;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.color-div.current {
+	border-style: dotted;
+}
+
+.player {
+	padding-top: 20px;
+	height: 160px;
+	border: 1px solid #dfdfdf;
+	height: 160px;
+}
+
+.player span {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	background-repeat: no-repeat;
+}
+
+.player .play {
+	background-image: url("../image/audio_player_icons.png");
+	background-position: -13px -51px;
+}
+
+.player .play:HOVER {
+	background-image: url("../image/audio_player_icons.png");
+	background-position: 10% 0%;
+}
+
+.player .pause {
+	background-image: url("../image/audio_player_icons.png");
+	background-position: 20% 0%;
+}
+
+.player .pause:HOVER {
+	background-image: url("../image/audio_player_icons.png");
+	background-position: 30% 0%;
+}
