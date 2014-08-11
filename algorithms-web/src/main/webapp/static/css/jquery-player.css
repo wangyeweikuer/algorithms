@@ -1,0 +1,43 @@
+.player{
+	display: inline-block;
+}
+.player span{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.player span.hide{
+	display: none;
+}
+.player .play{
+	background-image: url("../image/player.png");
+	background-position: -405px -10px;
+}
+.player .pause{
+	background-image: url("../image/player.png");
+	background-position: -102px -95px;
+}
+.player .stop{
+	background-image: url("../image/player.png");
+	background-position: -198px -10px;
+}
+
+
+/*.player .play:HOVER {
+	background-image: url("../image/audio_player_icons.png");
+	background-position: 10% 0%;
+}
+
+.player .pause {
+	background-image: url("../image/audio_player_icons.png");
+	background-position: 20% 0%;
+}
+
+.player .pause:HOVER {
+	background-image: url("../image/audio_player_icons.png");
+	background-position: 30% 0%;
+}
+*/

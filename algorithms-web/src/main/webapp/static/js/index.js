@@ -1,8 +1,7 @@
 window.algorithm = window.algorithm || {};
 window.algorithm.sort = window.algorithm.sort || {};
 window.algorithm.sort.length = window.algorithm.sort.length || 10;
-window.algorithm.sort.BubbleSort = function() {
-};
+window.algorithm.sort.BubbleSort = function() {};
 
 /**
  * 新定义BubbleSort的原型
@@ -22,30 +21,43 @@ window.algorithm.sort.BubbleSort.prototype = {
 			has[r] = 1;
 		}
 		return arr;
+	},
+	sort : function(arrays,swap_callback){
+		for(var i=0;i<arrays.length;i++){
+			for(var j=i+1;j<arrays.length;j++){
+				if(arrays[j] > arrays[j+1]){
+					swap(arrays,j,j+1);
+					swap_callback(arrays[j],arrays[j+1]);
+				}
+			}
+		}
+	},
+	swap : function(arrays,bidx,eidx){
+		var t = arrays[bidx];
+		arrays[bidx] = arrays[eidx];
+		arrays[eidx] = t;
 	}
 };
 $(function() {
-	var bs = new window.algorithm.sort.BubbleSort();
-	var arr = bs.randomArray();
-	var $ctnt = $(".content");
-	for ( var i = 0; i < arr.length; i++) {
-		var d = $('<div class="color-div"></div>');
-		d.attr('data-value', arr[i]).text(arr[i]).attr('id','value-'+i);
-		$ctnt.append(d);
-	}
-	$('.color-div').each(function(index) {
-		var v = $(this).attr('data-value');
-		var r = (v * 12345) % 256;
-		var g = (v * 23456) % 256;
-		var b = (v * 34567) % 256;
-		$(this).css("background-color", "rgb(" + r + "," + g + "," + b + ")");
-		$(this).css('line-height', v * 30 + "px");
-		$(this).css('margin-top', (350 - v * 30) + "px");
-		if(index == 3){
-			$(this).css('border','dotted');
-			$(this).css('background-color','');
+	var $player = $('.player').player();
+	var $topmsg = $('.topmsg').topmsg();
+	$('#title').on('treeevent:child-selected',function(e,paths){
+		alert('yyy');
+		var txt = '';
+		paths = paths.reverse();
+		while(paths.length){
+			if(txt != ''){
+				txt += ' >> ';
+			}
+			txt += paths.shift();
 		}
+		$(this).find('span').text(txt);
 	});
-	
-	$(".block").animate({"left": "+=50px"}, "slow");
+	$("#algorithm-content").sort({
+		player : $player,
+		topmsg : $topmsg
+	});
+	$('#tree-navigation').mytree({
+		data : '/static/js/myplugins/tree/data-example.json'
+	});
 });

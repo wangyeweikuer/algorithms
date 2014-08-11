@@ -1,0 +1,48 @@
+.tree-navigation-ul{
+	
+}
+.tree-navigation-ul li{
+	list-style: none;
+	margin-left: -20px;
+	margin-top: 5px;
+}
+.tree-navigation-ul li div{
+	display: inline-block;
+}
+.tree-navigation-ul li div.title{
+	cursor: pointer;
+	margin-top: 5px;
+	padding: 3px 0 3px 5px;
+	min-width: 80%;
+}
+.tree-navigation-ul li div.title{
+	border-radius : 3px;
+	cursor: pointer;
+}
+.tree-navigation-ul li div.title:HOVER{
+	background-color: #b6bdca;
+}
+.tree-navigation-ul li div.title.selected{
+	background-color: #d6bdca;
+}
+
+.tree-navigation-ul li.root span.status{
+	border: rgb(130, 130, 130) solid 5px;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+	vertical-align: middle;
+	width: 0px;
+	height: 0px;
+	display: inline-block;
+	cursor: pointer;
+}
+.tree-navigation-ul li.root span.status.close{
+	border-top-color: transparent;
+	margin-top: -5px;
+	margin-left: -10px;
+}
+.tree-navigation-ul li.root span.status.open{
+	border-left-color: transparent;
+	margin-right: 5px;
+	margin-left: -15px;
+}

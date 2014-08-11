@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MERGE_SORT_MIN_SIZE	sorts.c	6;"	d	file:
+__sort_h_	sorts.h	2;"	d
+_copy_item	sorts.c	/^static void _copy_item(void *dest, int didx, void *src, int sidx, size_t type_size)$/;"	f	file:
+_get_index_of	sorts.c	/^static void *_get_index_of(void *a, int idx, size_t type_size)$/;"	f	file:
+_merge_internal	sorts.c	/^static void _merge_internal(void *a, void *help, int start, int mid,$/;"	f	file:
+_merge_sort	sorts.c	/^static void _merge_sort(void *a, void *help, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f	file:
+_merge_sort_optimal	sorts.c	/^static void _merge_sort_optimal(void *a, void *help, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f	file:
+_partition	sorts.c	/^static int _partition(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f	file:
+_partition2	sorts.c	/^static int _partition2(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f	file:
+bubble_sort	sorts.c	/^void bubble_sort(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+cal_polar_angle	convex_hull.c	/^double cal_polar_angle(point * p, point * pivot)$/;"	f
+calculate_convex_hull	convex_hull.c	/^point *calculate_convex_hull(vector * points, int len, point pivot)$/;"	f
+calculate_vector	convex_hull.c	/^int calculate_vector(point * points, int len, point * pivot, vector * vectors)$/;"	f
+call_fn	test_sorts.c	/^void call_fn(int len,$/;"	f
+char_cmp	test_sorts.c	/^int char_cmp(void *a, void *b)$/;"	f
+cs	t.c	/^char cs[] = { 'x', 'y', 'z' };$/;"	v
+do_cmp	sorts.c	/^static int do_cmp(void *a, int l_idx, int r_idx, size_t type_size, int (*cmp) (void *, void *))$/;"	f	file:
+double_cmp	test_sorts.c	/^int double_cmp(void *a, void *b)$/;"	f
+find_pivot	convex_hull.c	/^point *find_pivot(point * points, int len)$/;"	f
+heap_sort	sorts.c	/^void heap_sort(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+insertion_sort	sorts.c	/^void insertion_sort(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+int_cmp	test_sorts.c	/^int int_cmp(void *a, void *b)$/;"	f
+int_cmp_reverse	test_sorts.c	/^int int_cmp_reverse(void *a, void *b)$/;"	f
+ints	t.c	/^int ints[] = { 1, 2, 3 };$/;"	v
+less	t.c	/^int less(void *a, void *b)$/;"	f
+main	convex_hull.c	/^int main()$/;"	f
+main	t.c	/^int main()$/;"	f
+main	test_sorts.c	/^int main(int argc, char **argv)$/;"	f
+merge_sort	sorts.c	/^void merge_sort(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+merge_sort_bottomup	sorts.c	/^void merge_sort_bottomup(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+merge_sort_optimal	sorts.c	/^void merge_sort_optimal(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+p	convex_hull.c	/^	point *p;$/;"	m	struct:__anon2	file:
+pivot	convex_hull.c	/^static point *pivot = NULL;$/;"	v	file:
+point	convex_hull.c	/^} point;$/;"	t	typeref:struct:__anon1	file:
+polar_angle	convex_hull.c	/^	double polar_angle;$/;"	m	struct:__anon2	file:
+print_items	test_sorts.c	/^void print_items(int len, int *items)$/;"	f
+quick_sort	sorts.c	/^void quick_sort(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+quick_sort_naive	sorts.c	/^void quick_sort_naive(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+quick_sort_naive2	sorts.c	/^void quick_sort_naive2(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+rand_items	test_sorts.c	/^int *rand_items(int len)$/;"	f
+random_items	convex_hull.c	/^point *random_items(int len)$/;"	f
+selection_sort	sorts.c	/^void selection_sort(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+shell_sort	sorts.c	/^void shell_sort(void *a, int start, int end, size_t type_size, int (*cmp) (void *, void *))$/;"	f
+swap	sorts.c	/^static void swap(void *a, int l_idx, int r_idx, size_t type_size)$/;"	f	file:
+swap	t.c	/^void swap(void *a, void *b)$/;"	f
+vector	convex_hull.c	/^} vector;$/;"	t	typeref:struct:__anon2	file:
+vector_cmp	convex_hull.c	/^int vector_cmp(void *a, void *b)$/;"	f
+x	convex_hull.c	/^	int x;$/;"	m	struct:__anon1	file:
+y	convex_hull.c	/^	int y;$/;"	m	struct:__anon1	file:

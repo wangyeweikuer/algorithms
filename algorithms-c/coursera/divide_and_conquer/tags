@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+LEN	inversion.c	6;"	d	file:
+_partition_end	inversion.c	/^static int _partition_end(int *all,int start,int end)$/;"	f	file:
+_partition_first	inversion.c	/^static int _partition_first(int *all,int start,int end)$/;"	f	file:
+_partition_mid	inversion.c	/^static int _partition_mid(int *all,int start,int end)$/;"	f	file:
+copy_ints	inversion.c	/^int* copy_ints(int num,int *all)$/;"	f
+main	inversion.c	/^int main(int len, char *args[])$/;"	f
+merge_cal_inversions	inversion.c	/^long merge_cal_inversions(int *all, int *help, int start, int mid, int end)$/;"	f
+merge_sort_cal_inversions	inversion.c	/^long merge_sort_cal_inversions(int *all, int *help, int start, int end)$/;"	f
+quick_sort	inversion.c	/^long quick_sort(int *all,int start,int end,int (*partition)(int *,int ,int ))$/;"	f
+read_ints	inversion.c	/^int read_ints(int *all, char *file)$/;"	f
+swap	inversion.c	/^static void swap(int *all,int a,int b)$/;"	f	file:

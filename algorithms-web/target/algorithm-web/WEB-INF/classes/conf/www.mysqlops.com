@@ -1,0 +1,12 @@
+$('#headerbg').hide();
+$('#subnavbarbg').hide();
+$('#footerbg').hide();
+$('div.breadcrumb').hide();
+$('#sidebar_main_right').hide();
+$('#respond').hide();
+$('a[rel=license]').hide();
+$('#contentleft div.post div.date').hide();
+$('a[rel=bookmark]').parent('div').hide();
+$('div.postmeta').hide();
+$('div.authorbox').hide();
+$('#contentleft').css('width','800px');

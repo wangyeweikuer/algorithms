@@ -1,0 +1,60 @@
+.hidden{display:none;}
+#commentDialog{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	z-index: 10000;
+	background-color: gray;
+	border-radius: 5px;
+}
+#commentDialog .wrapper{padding: 5px;}
+#commentDialog textarea{
+	resize:none;
+	height: 160px;
+	width: 290px;
+	border-radius: 5px;
+	border:none;
+}
+#commentDialog .toolbar{text-align: right;}
+#commentToolbar {
+	position: absolute;
+	width: 180px;
+	height: 24px;
+	z-index: 10000;
+	background-color: white;
+	color: #6ea084;
+	box-shadow: 0 0 3px #e6e6e6;
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+}
+#commentToolbar .inner{
+	margin-top: 3px;
+}
+#commentToolbar a {
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #6ea084;
+}
+#commentToolbar .trangle {
+	display: inline-block;
+	width: 14px;
+	height: 11px;
+	top: -11px;
+	left: 15px;
+	position: absolute;
+	z-index: 2;
+	background:  url("panel_99ca54b4.png") no-repeat 0 -30px;
+}
+
+span.commented{opacity : 0.5;cursor : pointer;}
+.bgyellow{background-color: yellow;}
+.bgpink{background-color: pink;}
+.bggreen{background-color: rgb(150,240,150);}
+.bgyellowgreen{background-color: yellowgreen;}
+.bgbrown{background-color: brown;}
+.bgcoral{background-color: coral;}
+.bgcrimson{background-color: crimson ;}
+.bgdarkgoldenrod{background-color: darkgoldenrod;}
+.bglightgray{background-color: lightgray;}
+.bgplum{background-color: plum;}
+.bgsilver{background-color: silver;}
